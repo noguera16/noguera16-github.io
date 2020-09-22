@@ -1,9 +1,235 @@
-<html>
-<head>
-<title></title>
-</head>
-<body>
-<h1>practicas</h1>
-<p>practicas lola</p>
-</body>
-</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Ejemplos y etiquetas b&aacute;sicas de HTML</title></head>
+<body style="color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee" vlink="#551a8b"><h1 style="background-color: rgb(153, 255, 153);">Mini-manual
+con los elementos b&aacute;sicos de HTML</h1>
+<p>El lenguaje HTML es el lenguaje con el que se escriben las
+p&aacute;ginas web y que entienden los navegadores, de modo que quede
+determinada la forma en que mostrar la informaci&oacute;n (qu&eacute;
+tipos, tama&ntilde;os y colores de las letras, d&oacute;nde colocar las
+im&aacute;genes, c&oacute;mo enlazar a otras p&aacute;ginas, ...).<br></p><h2 style="background-color: rgb(255, 255, 153);">Estructura
+de una p&aacute;gina web</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2"> <tbody> <tr><td style="width: 10%;">c&oacute;digo</td> <td style="background-color: rgb(255, 255, 204);">&lt;html&gt;<br>
+&lt;head&gt;<br>
+&nbsp; &lt;title&gt;Primera pagina de
+Pepe&lt;/title&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+&amp;Eacute;sta es la primera p&amp;aacute;gina de Pepe<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;</td> </tr> <tr> <td>t&iacute;tulo</td>
+<td style="background-color: rgb(0, 0, 255);"><span style="color: rgb(255, 255, 255); font-weight: bold;">Primera
+pagina de Pepe</span></td> </tr> <tr> <td>visualizaci&oacute;n</td>
+<td style="background-color: rgb(204, 255, 255);">&Eacute;sta
+es la primera p&aacute;gina de Pepe</td> </tr> </tbody>
+</table><br><h3>&lt;HTML&gt; &hellip;
+&lt;/HTML&gt;</h3>
+Delimita y engloba toda la p&aacute;gina web, que consta de
+cabecera y cuerpo.<br>
+<h3>&lt;HEAD&gt; &hellip; &lt;/HEAD&gt;</h3>
+Delimita y engloba la cabecera de una p&aacute;gina, que contiene
+un
+conjunto de informaciones que no se muestran en la ventana, entre ellas
+el t&iacute;tulo de la p&aacute;gina, pero que pueden ayudar a
+los
+navegadores y a los buscadores para interpretar o a encontrar
+correctamente la p&aacute;gina.<br>
+<h3>&lt;TITLE&gt; &hellip; &lt;/TITLE&gt;</h3>
+Dentro de la cabecera (HEAD), lo que se incluye aqu&iacute; se
+muestra en la barra del t&iacute;tulo de la ventana del navegador.<br>
+<h3>Metadatos</h3>
+La cabecera admite otras muchas etiquetas <span style="font-weight: bold; color: rgb(255, 0, 0);">(</span><span style="font-style: italic; font-weight: bold; color: rgb(255, 0, 0);">ver
+apuente 6 y 6.1.</span><span style="font-weight: bold; color: rgb(255, 0, 0);">)</span><br>
+<h3>&lt;BODY&gt; &hellip; &lt;/BODY&gt;</h3>
+Delimita y engloba el cuerpo de la p&aacute;gina, que son el
+conjunto
+de informaciones (texto e im&aacute;genes) que se muestran en la
+p&aacute;gina, as&iacute; como las indicaciones de
+c&oacute;mo deben
+mostrarse.<br>
+Admite atributos <span style="font-weight: bold; font-style: italic; color: rgb(255, 0, 0);">(ver
+jac 8 y apuente 5.3 y 14.3)</span>.<br>
+<h2 style="background-color: rgb(255, 255, 153);">Formatos
+de p&aacute;rrafo</h2>
+El texto de la p&aacute;gina se puede estructurar en
+encabezamientos de
+los diferentes apartados de la p&aacute;gina, que pueden tener
+distintos niveles de 1 a 6 (siendo 1 el m&aacute;s importante) y
+p&aacute;rrafos normales.<br>
+<h3>&lt;H1&gt; ... &lt;/H1&gt; o
+&lt;H2&gt; ... &lt;/H2&gt; (hasta 6)</h3>
+P&aacute;rrafos que son encabezamientos (con distintos niveles).<br>
+<h3>&lt;P&gt;... &lt;/P&gt;</h3>
+P&aacute;rrafos normales.<br>
+<h3>&lt;P align="center"&gt;... &lt;/P&gt;</h3>
+El atributo align permite alinear el texto del p&aacute;rrafo. Se
+puede
+aplicar igual a las etiquetas &lt;H1&gt;, &lt;H2&gt;,
+etc ...
+<h3>&lt;BR&gt;</h3>
+Permite partir un p&aacute;rrafo empezando una l&iacute;nea
+nueva pero sin dejar espacio.<br>
+<h3>&lt;HR&gt;</h3>
+Pone una linea horizontal de separaci&oacute;n. (admite atributos) <span style="font-weight: bold; color: rgb(255, 0, 0);">(</span><span style="font-style: italic; font-weight: bold; color: rgb(255, 0, 0);">ver
+apuente 11.1</span><span style="font-weight: bold; color: rgb(255, 0, 0);">)</span>.<br>
+<h3>&lt;BLOCKQUOTE&gt;&hellip;&lt;/BLOCKQUOTE&gt;</h3>
+Sangra el p&aacute;rrafo.<br>
+<h2 style="background-color: rgb(255, 255, 153);">Formatos
+de texto</h2>
+El formato de caracteres permite cambiar tanto el tipo de fuente como
+su tama&ntilde;o y aspecto.<br>
+Se pueden utilizar varias etiquetas HTML para dar distintos formatos a
+un grupo de caracteres:<br>
+<h3>Formatos F&iacute;sicos:</h3>
+<ul> <li>Negrita:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;B&gt;&hellip;&lt;/B&gt;</li> <li>Cursiva:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;I&gt;&hellip;&lt;/I&gt;</li> <li>Subrayado:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;U&gt;&hellip;&lt;/U&gt;</li> <li>Teletipo:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;TT&gt;&hellip;&lt;/TT&gt;</li> <li>Tachado:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;STRIKE&gt;&hellip;&lt;/STRIKE&gt;</li> <li>Grande:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;BIG&gt;&hellip;&lt;/BIG&gt;</li> <li>Peque&ntilde;a:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;SMALL&gt;&hellip;&lt;/SMALL&gt;</li> <li>Super&iacute;ndice:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;SUP&gt;&hellip;&lt;/SUP&gt;</li> <li>Sub&iacute;ndice:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;SUB&gt;&hellip;&lt;/SUB&gt;</li>
+</ul><h3>Formatos L&oacute;gicos:
+</h3><ul> <li>Cita:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;CITE&gt;&hellip;&lt;/CITE&gt;</li> <li>C&oacute;digo:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;CODE&gt;&hellip;&lt;/CODE&gt;</li> <li>Definici&oacute;n:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;DFN&gt;&hellip;&lt;/DFN&gt;</li> <li>&Eacute;nfasis:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;EM&gt;&hellip;&lt;/EM&gt;</li> <li>Grueso:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;STRONG&gt;&hellip;&lt;/STRONG&gt;</li> <li>Palabras
+clave:&nbsp;&nbsp;&nbsp;
+&lt;KEY&gt;&hellip;&lt;/KEY&gt;</li> <li>Ejemplos:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;SAMP&gt;&hellip;&lt;/SAMP&gt;</li> <li>Usuario:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;KBD&gt;&hellip;&lt;/KBD&gt;</li> <li>Variables:&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;VAR&gt;&hellip;&lt;/VAR&gt;</li> <li>Ejemplo
+literal:&nbsp;&nbsp;&nbsp;
+&lt;XMP&gt;...&lt;/XMP&gt; (ignora las etiquetas HTML
+de dentro)</li>
+</ul>Posibilidad de combinar etiquetas (anid&aacute;ndolas,
+esto es, una
+dentro de otra):<br>
+<ul> <li>&lt;B&gt;&hellip;&lt;I&gt;&hellip;&lt;/I&gt;&hellip;&lt;/B&gt;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; (Correcto)</li>
+<li>&lt;B&gt;&hellip;&lt;I&gt;&hellip;&lt;/B&gt;&hellip;&lt;/I&gt;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+(Incorrecto)</li>
+</ul><h3>&lt;FONT COLOR="red"&gt; ...
+&lt;/FONT&gt;</h3>
+Indicaci&oacute;n expresa del tipo de letra a usar, en este caso el
+color <span style="font-weight: bold; color: rgb(255, 0, 0);">(</span><span style="font-style: italic; font-weight: bold; color: rgb(255, 0, 0);">ver
+jac 8.2</span><span style="font-weight: bold; color: rgb(255, 0, 0);">)</span><br>
+<h3>&lt;FONT SIZE="+1"&gt; ... &lt;/FONT&gt;</h3>
+Indicaci&oacute;n expresa del tipo de letra a usar, en este caso el
+tama&ntilde;o <span style="font-weight: bold; color: rgb(255, 0, 0);">(</span><span style="font-style: italic; font-weight: bold; color: rgb(255, 0, 0);">ver
+jac 8.1-segunda
+parte)</span><br>
+<br>La etiqueta FONT permite combinaciones cualesquiera de los
+atributos
+COLOR, SIZE y FACE
+<h2 style="background-color: rgb(255, 255, 153);">Caracteres
+especiales</h2>
+Existe una serie de caracteres del ISO-LATIN-1 que no se pueden
+representar directamente en un documento HTML, puesto que forman parte
+del propio vocabulario del lenguaje, como por ejemplo los
+s&iacute;mbolos &lt;, &gt;, &amp;, etc.<br>
+Adicionalmente, las vocales acentuadas y algunos signos de
+puntuaci&oacute;n deben ser especificados de forma distinta, puesto
+que
+los navegadores pueden no entender el c&oacute;digo del
+car&aacute;cter
+utilizado y convertirlo a otro diferente.<br>
+Los caracteres especiales m&aacute;s usados son:<br>
+<ul> <li>&amp;aacute;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &aacute;</li> <li>&amp;eacute;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &eacute;</li> <li>&amp;iacute;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &iacute;</li> <li>&amp;oacute;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &oacute;</li> <li>&amp;uacute;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &uacute;</li> <li>&amp;agrave;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &agrave;</li> <li>&amp;ntilde;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &ntilde;</li> <li>&amp;lt;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;</li>
+<li>&amp;gt;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &gt;</li>
+<li>&amp;amp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &amp;</li>
+<li>&amp;ccedil;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &ccedil;</li> <li>&amp;quot;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&ldquo;</li> <li>&amp;nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; espacio
+en blanco</li>
+</ul><span style="font-style: italic; font-weight: bold; color: rgb(255, 0, 0);">(ver
+apuente 10.1)</span><br>
+<h2 style="background-color: rgb(255, 255, 153);">Listas</h2>
+<span style="font-weight: bold; color: rgb(255, 0, 0);">(</span><span style="font-style: italic; font-weight: bold; color: rgb(255, 0, 0);">ver
+apuente 7</span><span style="font-weight: bold; color: rgb(255, 0, 0);">)</span><br>
+<h3>&lt;UL&gt; ... &lt;/UL&gt;</h3>
+Lista&nbsp;numerada.
+<h3>&lt;OL&gt; ... &lt;/OL&gt;</h3>
+Lista no numerada.
+<h3>&lt;LI&gt; ... &lt;/LI&gt;</h3>
+Elementos de una lista.
+<h2 style="background-color: rgb(255, 255, 153);">Enlaces</h2>
+Sirven para acceder desde una p&aacute;gina a otra
+p&aacute;gina o a otro recurso disponible <span style="font-weight: bold; font-style: italic; color: rgb(255, 0, 0);">(ver
+apuente 15)</span>.<br>
+<h3>&lt;a href="http://servidor/recurso.html"&gt;texto
+del
+enlace&lt;/a&gt;</h3>
+Enlace absoluto a una p&aacute;gina<br>
+<h3>&lt;a href="recurso.html"&gt;texto del
+enlace&lt;/a&gt;</h3>
+Enlace relativo a una p&aacute;gina<br>
+<h3>&lt;a name="marcador"&gt; ... &lt;/a&gt;</h3>
+Marcador (enlace interno) dentro de una p&aacute;gina<br>
+<h3>&lt;a href="#marcador"&gt;texto del
+enlace&lt;/a&gt;</h3>
+Enlace a un marcador de la misma p&aacute;gina<br>
+<h3>&lt;a href="recurso.html#marcador"&gt;texto del
+enlace&lt;/a&gt;</h3>
+Enlace a un marcador de otra p&aacute;gina (que puede darse con
+direcci&oacute;n absoluta o relativa)<br>
+<h3>&lt;a href="recurso.html" target="_blank"&gt;texto
+del
+enlace&lt;/a&gt;</h3>
+Enlace a otra p&aacute;gina (absoluta o relativa, con o sin
+marcador) que se abra en otra ventana.<br>
+<h2 style="background-color: rgb(255, 255, 153);">Im&aacute;genes</h2>
+<h3>&lt;img src="nombre.gif"&gt;</h3>
+Muestra una imagen, que normalmente es de tipo GIF o JPG<br>
+Admite atributos <span style="font-weight: bold; color: rgb(255, 0, 0);">(</span><span style="font-style: italic; font-weight: bold; color: rgb(255, 0, 0);">ver
+apuente 14</span><span style="font-weight: bold; color: rgb(255, 0, 0);">)</span>.
+<h2 style="background-color: rgb(255, 255, 153);">Tablas</h2>
+Permite organizar la informaci&oacute;n en tablas.<br>
+Tambi&eacute;n sirve para maquetar (dar forma general) al aspecto
+de la p&aacute;gina.<br>
+<span style="font-weight: bold; color: rgb(255, 0, 0);">(</span><span style="font-style: italic; font-weight: bold; color: rgb(255, 0, 0);">ver
+apuente 11.1</span><span style="font-weight: bold; color: rgb(255, 0, 0);">)</span>
+<br><br><h2 style="background-color: rgb(255, 255, 153);">Enlaces
+de inter&eacute;s de
+referencia</h2><ul><li><b>(apuente)</b> <a href="http://roble.pntic.mec.es/apuente/html/">Manual
+de lenguaje html de nivel inicial, medio y avanzado, de Angel Ricardo
+Puente P&eacute;rez</a></li><li><b>(aulaclic)</b> <a href="http://www.aulaclic.es/html/index.htm">Curso
+de HTML, de AulaClic</a></li><li><b>(jac)</b> <a href="http://www.uv.es/jac/guia/">Gu&iacute;a
+para escribir documentos HTML, de Jose Antonio Camino</a></li><li><a href="http://www.jorgesanchez.net/web/html.pdf">HTML
+gu&iacute;a de referencia r&aacute;pida, de Jorge
+S&aacute;nchez</a> <b>(formato PDF)</b></li></ul>
+</body></html>
